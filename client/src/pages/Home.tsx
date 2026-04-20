@@ -7,7 +7,7 @@ export default function Home() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative text-background py-20 md:py-32 overflow-hidden" style={{
-        backgroundImage: 'url(/manus-storage/smash-burger-hero_ab2dbb66.jpg)',
+        backgroundImage: 'url(https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&q=80)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}>
@@ -67,7 +67,7 @@ export default function Home() {
             {/* Right Visual - Shows burger image on desktop */}
             <div className="hidden md:block relative h-96">
               <img
-                src="/manus-storage/smash-burger-hero_ab2dbb66.jpg"
+                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&q=80"
                 alt="Smash Boyz Signature Burger"
                 className="w-full h-full object-cover rounded-lg shadow-2xl"
               />
@@ -89,19 +89,19 @@ export default function Home() {
                 name: "TWO STEP",
                 price: "$12",
                 desc: "Double smashed beef, American cheese, grilled onions, secret sauce",
-                image: "/manus-storage/two-step-burger_ef00461e.jpg",
+                image: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&q=80",
               },
               {
                 name: "THRASHER",
                 price: "$13",
                 desc: "Spicy double smash, pepper jack, crispy fried onions, jalapeños",
-                image: "/manus-storage/thrasher-burger_41680e52.jpg",
+                image: "https://images.unsplash.com/photo-1586816001966-79b736744398?w=600&q=80",
               },
               {
                 name: "GLIZZY",
                 price: "$7",
                 desc: "Grilled Angus beef frank, grilled onions, relish, secret sauce",
-                image: "/manus-storage/glizzy-hotdog_951cba37.jpg",
+                image: "https://images.unsplash.com/photo-1612392062631-94f328d89a4c?w=600&q=80",
               },
             ].map((item, idx) => (
               <div

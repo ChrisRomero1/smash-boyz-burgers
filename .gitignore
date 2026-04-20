@@ -112,3 +112,4 @@ temp/
 # Manus artifacts
 client/public/__manus__/version.json
 .manus-logs/
+.vercel

@@ -153,7 +153,7 @@ export default function Menu() {
               transition={{ duration: 0.55 }}
             >
               <img
-                src="https://images.unsplash.com/photo-1612392062631-94f328d89a4c?w=700&q=80"
+                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=700&q=80"
                 alt="Smash Boyz Glizzy hotdog"
                 className="w-full h-full object-cover"
               />

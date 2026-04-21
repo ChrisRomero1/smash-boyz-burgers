@@ -132,11 +132,11 @@ export default function Home() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="h-44 overflow-hidden rounded-lg shadow-2xl border-2 border-accent bg-black flex items-center justify-center">
+              <div className="h-44 overflow-hidden rounded-lg shadow-2xl border-2 border-accent">
                 <img
                   src="/ig/burger-hero.jpg"
                   alt="Smash Boyz burger and fries"
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-cover object-center"
                 />
               </div>
             </motion.div>

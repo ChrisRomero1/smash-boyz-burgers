@@ -58,7 +58,7 @@ export default function Home() {
       <section
         className="relative text-background py-20 md:py-32 overflow-hidden"
         style={{
-          backgroundImage: "url(https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&q=80)",
+          backgroundImage: "url(/ig/img7.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -126,8 +126,8 @@ export default function Home() {
               transition={{ duration: 0.7, delay: 0.3, ease: "easeOut" }}
             >
               <img
-                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&q=80"
-                alt="Smash Boyz Signature Burger"
+                src="/ig/img9.jpg"
+                alt="Smash Boyz food truck"
                 className="w-full h-full object-cover rounded-lg shadow-2xl border-2 border-accent"
               />
             </motion.div>

@@ -82,7 +82,7 @@ export default function Menu() {
       <div
         className="relative h-56 md:h-72 overflow-hidden"
         style={{
-          backgroundImage: "url(https://images.unsplash.com/photo-1561758033-d89a9ad46330?w=1400&q=80)",
+          backgroundImage: "url(/ig/img9.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center 60%",
         }}

@@ -13,9 +13,9 @@ const stagger = {
 };
 
 const PHOTOS = [
-  { src: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&q=80", alt: "Smash Boyz burger" },
-  { src: "https://images.unsplash.com/photo-1586816001966-79b736744398?w=600&q=80", alt: "Thrasher burger" },
-  { src: "https://images.unsplash.com/photo-1561758033-d89a9ad46330?w=600&q=80",    alt: "Street food" },
+  { src: "/ig/img9.jpg", alt: "Sam at the Smash Boyz food truck window" },
+  { src: "/ig/img7.jpg", alt: "Smash Boyz burger and fries" },
+  { src: "/ig/img6.jpg", alt: "Smash Boyz truck" },
 ];
 
 export default function About() {

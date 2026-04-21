@@ -20,7 +20,7 @@ export default function Navigation() {
         {/* Logo */}
         <Link href="/">
           <a className="flex items-center gap-2 font-bold text-xl md:text-2xl hover:opacity-80 transition">
-            <span className="text-2xl">🍔</span>
+            <img src="/logo.jpg" alt="Smash Boyz" className="w-10 h-10 rounded-full object-cover" />
             <span>SMASH BOYZ</span>
           </a>
         </Link>

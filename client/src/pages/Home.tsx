@@ -175,7 +175,7 @@ export default function Home() {
                 name: "GLIZZY",
                 price: "$7",
                 desc: "Grilled Angus beef frank, grilled onions, relish, secret sauce",
-                image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+                image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&q=80",
               },
             ].map((item, idx) => (
               <motion.div

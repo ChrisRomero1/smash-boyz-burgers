@@ -132,7 +132,7 @@ export default function Menu() {
               transition={{ duration: 0.55 }}
             >
               <img
-                src="https://images.unsplash.com/photo-1550547660-d9450f859349?w=700&q=80"
+                src="/ig/img7.jpg"
                 alt="Signature smash burger"
                 className="w-full h-full object-cover"
               />
@@ -153,7 +153,7 @@ export default function Menu() {
               transition={{ duration: 0.55 }}
             >
               <img
-                src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=700&q=80"
+                src="/ig/img7.jpg"
                 alt="Smash Boyz Glizzy hotdog"
                 className="w-full h-full object-cover"
               />

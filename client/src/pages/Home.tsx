@@ -118,18 +118,27 @@ export default function Home() {
               </motion.div>
             </motion.div>
 
-            {/* Right – hero image */}
+            {/* Right – hero images */}
             <motion.div
-              className="hidden md:block relative h-96"
+              className="hidden md:flex flex-col gap-3 h-96"
               initial={{ opacity: 0, scale: 0.92 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.7, delay: 0.3, ease: "easeOut" }}
             >
-              <img
-                src="/ig/img9.jpg"
-                alt="Smash Boyz food truck"
-                className="w-full h-full object-cover rounded-lg shadow-2xl border-2 border-accent"
-              />
+              <div className="flex-1 overflow-hidden rounded-lg shadow-2xl border-2 border-accent">
+                <img
+                  src="/ig/img9.jpg"
+                  alt="Smash Boyz food truck"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="h-36 overflow-hidden rounded-lg shadow-2xl border-2 border-accent">
+                <img
+                  src="/ig/img7.jpg"
+                  alt="Smash Boyz burger and fries"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
             </motion.div>
           </div>
         </div>

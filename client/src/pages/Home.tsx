@@ -134,7 +134,7 @@ export default function Home() {
               </div>
               <div className="h-36 overflow-hidden rounded-lg shadow-2xl border-2 border-accent">
                 <img
-                  src="/ig/img7.jpg"
+                  src="/ig/burger-hero.jpg"
                   alt="Smash Boyz burger and fries"
                   className="w-full h-full object-cover object-center"
                 />

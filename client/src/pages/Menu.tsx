@@ -132,7 +132,7 @@ export default function Menu() {
               transition={{ duration: 0.55 }}
             >
               <img
-                src="/ig/img7.jpg"
+                src="/ig/burger-hero.jpg"
                 alt="Signature smash burger"
                 className="w-full h-full object-cover"
               />
